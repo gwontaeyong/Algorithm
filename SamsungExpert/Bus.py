@@ -26,18 +26,25 @@ T = int(input())
 for test_case in range(1, T + 1):
     k, n, m = map(int, input().split())
     m_array = list(map(int, input().split()))
-    #m_array.sort(reverse = True)
+    m_array.sort(reverse = True)
 
     count = 0
-    current = 1
+    pointer = 1
 
-    while current >= n:
-        gap = m_array[index] - current
-        if gap < k:
-            count = 0
-        elif gap == 0:
-            continue
-        else:
-            count += 1
-            current = m_array[index]
+    while pointer < n :
+        for busStop in m_array:
+
+            if busStop > pointer + k:
+                if busStop == m_array[-1]:
+                    count = 0
+                    pointer = n + 1
+                    break
+                else:
+                    continue
+            else:
+                count += 1
+                pointer = busStop
+                break
+
+
     print(count)

@@ -1,5 +1,5 @@
 import sys
-
+import time
 '''
 input = k, n, m, m_array
 
@@ -26,25 +26,37 @@ T = int(input())
 for test_case in range(1, T + 1):
     k, n, m = map(int, input().split())
     m_array = list(map(int, input().split()))
-    m_array.sort(reverse = True)
+    m_array.sort(reverse=True)
 
     count = 0
-    pointer = 1
+    pointer = 0
 
-    while pointer < n :
-        for busStop in m_array:
+    #print("Case ", str(test_case))
 
-            if busStop > pointer + k:
-                if busStop == m_array[-1]:
+
+    while pointer + k < n:
+
+        for charger in m_array:
+            #print("current", pointer)
+            if charger <= pointer + k :
+                #print("can charge at", charger)
+                #time.sleep(0.5)
+
+                if pointer == charger:
                     count = 0
-                    pointer = n + 1
-                    break
+                    pointer = n
                 else:
-                    continue
-            else:
-                count += 1
-                pointer = busStop
+                    count += 1
+                    pointer = charger
+
+
                 break
+            else:
+                #print("can't charge at", charger)
+                #time.sleep(0.5)
+                if charger == m_array[-1]:
+                    count = 0
+                    pointer = n
+                    break
 
-
-    print(count)
+    print("#%d %d" % (test_case, count))

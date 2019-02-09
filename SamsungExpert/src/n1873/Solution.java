@@ -4,13 +4,23 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Solution {
 
+	static char positions[] = { '<', '>', '^', 'v' };
+	static int direction[] = new int[2]; // 전차의 방향을 체크하는 배열
+	static int H;
+	static int W;
+	static char map[][];
+	static char state;
+	static int x;
+	static int y;
+
 	public static void main(String[] args) throws IOException {
 
-		System.setIn(new FileInputStream("src/data/input_2817.txt"));
+		System.setIn(new FileInputStream("src/data/input_1873.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int T = Integer.parseInt(br.readLine());
@@ -19,20 +29,139 @@ public class Solution {
 
 			StringTokenizer st = new StringTokenizer(br.readLine());
 
-			int H = Integer.parseInt(st.nextToken());
-			int W = Integer.parseInt(st.nextToken());
+			H = Integer.parseInt(st.nextToken());
+			W = Integer.parseInt(st.nextToken());
 
-			int x = 0;
-			int y = 0;
-
-			String map[][] = new String[H][W];
+			map = new char[H][W];
 
 			for (int h = 0; h < H; h++) {
-				st = new StringTokenizer(br.readLine());
+				String line = br.readLine();
+
 				for (int w = 0; w < W; w++) {
-					map[h][w] = st.nextToken();
+					map[h][w] = line.charAt(w);
+
+					if (isPosition(map[h][w])) {
+						state = map[h][w];
+						x = w;
+						y = h;
+					}
+
 				}
+
+			}
+
+			int N = Integer.parseInt(br.readLine());
+
+			char cmds[] = br.readLine().toCharArray();
+
+			for (char cmd : cmds) {
+				doCMD(cmd);
+			}
+
+			StringBuilder sb = new StringBuilder();
+
+			sb.append(String.format("#%d ", test_case));
+			for (int h = 0; h < H; h++) {
+				for (int w = 0; w < W; w++) {
+					sb.append(map[h][w]);
+					if (w == W - 1)
+						sb.append("\n");
+				}
+
+			}
+			System.out.print(sb);
+		}
+	}
+
+	private static void doCMD(char cmd) {
+		// TODO Auto-generated method stub
+
+		if (cmd == 'S') {
+			// 현재 바라보는 방향으로 대포 발사
+			int bulletX = x + direction[0];
+			int bulletY = y + direction[1];
+
+			while (bulletX >= 0 && bulletY >= 0 && bulletX < W && bulletY < H) {
+
+				if (map[bulletY][bulletX] == '#')
+					break;
+
+				if (map[bulletY][bulletX] == '*') {
+					map[bulletY][bulletX] = '.';
+				}
+
+				bulletX = bulletX + direction[0];
+				bulletY = bulletY + direction[1];
+
+			}
+		} else {
+
+			changePosition(cmd);
+
+			int newX = x + direction[0];
+			int newY = y + direction[1];
+
+			if (newX >= 0 && newY >= 0 && newX < W && newY < H && (map[newY][newX] == '.')) {
+
+				map[y][x] = '.';
+				x = newX;
+				y = newY;
+				
+
+			}
+			map[y][x] = state;
+
+		}
+
+	}
+
+	public static void changePosition(char input) {
+		switch (input) {
+		case 'L':
+			state = '<';
+			break;
+		case 'R':
+			state = '>';
+			break;
+		case 'U':
+			state = '^';
+			break;
+		case 'D':
+			state = 'v';
+			break;
+		}
+
+		isPosition(state);
+	}
+
+	public static boolean isPosition(char input) {
+
+		for (char position : positions) {
+
+			if (position == input) {
+				switch (input) {
+				case '<':
+					direction[0] = -1;
+					direction[1] = 0;
+					break;
+				case '>':
+					direction[0] = 1;
+					direction[1] = 0;
+					break;
+				case '^':
+					direction[0] = 0;
+					direction[1] = -1;
+					break;
+				case 'v':
+					direction[0] = 0;
+					direction[1] = 1;
+					break;
+				}
+
+				return true;
 			}
 		}
+
+		return false;
 	}
 }

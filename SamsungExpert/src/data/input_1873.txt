@@ -1,7 +1,14 @@
-1
+2
 3 7
 ***....
 *-..#**
 #<.****
 23
 SURSSSSUSLSRSSSURRDSRDS
+3 7
+*******
+*****#*
+*****-<
+13
+SUSULSURRDULSLLDSDL
+S

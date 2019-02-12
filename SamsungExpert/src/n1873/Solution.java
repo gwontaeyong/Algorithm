@@ -80,14 +80,18 @@ public class Solution {
 			// 현재 바라보는 방향으로 대포 발사
 			int bulletX = x + direction[0];
 			int bulletY = y + direction[1];
-
+			
+			// 대포가 발사 되고 강철 벽을 만나거나 맵 밖으로 나가기 전까지 
 			while (bulletX >= 0 && bulletY >= 0 && bulletX < W && bulletY < H) {
 
+				//강철벽을 만나면 끝
 				if (map[bulletY][bulletX] == '#')
 					break;
-
+				
+				//벽을 만나면 부쉬고 다음으로 이동
 				if (map[bulletY][bulletX] == '*') {
 					map[bulletY][bulletX] = '.';
+					break;
 				}
 
 				bulletX = bulletX + direction[0];
@@ -106,7 +110,6 @@ public class Solution {
 				map[y][x] = '.';
 				x = newX;
 				y = newY;
-				
 
 			}
 			map[y][x] = state;
@@ -135,33 +138,29 @@ public class Solution {
 	}
 
 	public static boolean isPosition(char input) {
-
-		for (char position : positions) {
-
-			if (position == input) {
-				switch (input) {
-				case '<':
-					direction[0] = -1;
-					direction[1] = 0;
-					break;
-				case '>':
-					direction[0] = 1;
-					direction[1] = 0;
-					break;
-				case '^':
-					direction[0] = 0;
-					direction[1] = -1;
-					break;
-				case 'v':
-					direction[0] = 0;
-					direction[1] = 1;
-					break;
-				}
-
-				return true;
-			}
+		boolean result = true;
+		switch (input) {
+		case '<':
+			direction[0] = -1;
+			direction[1] = 0;
+			break;
+		case '>':
+			direction[0] = 1;
+			direction[1] = 0;
+			break;
+		case '^':
+			direction[0] = 0;
+			direction[1] = -1;
+			break;
+		case 'v':
+			direction[0] = 0;
+			direction[1] = 1;
+			break;
+		default:
+			result = false;
 		}
 
-		return false;
+		return result;
+
 	}
 }

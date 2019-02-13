@@ -7,12 +7,12 @@ import java.util.Arrays;
 
 public class Solution {
 
-	static int count;
+	static int C;
+	static int N;
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		int arr[] = { 1, 2, 3, 4 };
-		int result[] = new int[3];
 
 		System.setIn(Solution.class.getResourceAsStream("input.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,10 +21,8 @@ public class Solution {
 
 		for (int tc = 1; tc <= T; tc++) {
 
-			count = 0;
-			int N = Integer.parseInt(br.readLine());
-
-			// 소수 배열 만들기
+			C = 0;
+			N = Integer.parseInt(br.readLine());
 
 			boolean primes[] = new boolean[N + 1];
 			int primeNum = 0;
@@ -41,10 +39,39 @@ public class Solution {
 			}
 
 			int prime[] = new int[primeNum];
-			
-			for(int )
-			dupleCombination(primes, 0, 0, N);
-			System.out.println(count);
+			int primeIdx = 0;
+
+			for (int i = 2; i < primes.length; i++) {
+
+				if (!primes[i])
+					prime[primeIdx++] = i;
+
+			}
+
+			dupleCombination(prime, 0, 0, 0);
+
+			System.out.format("#%d %d\n", tc, C);
+		}
+
+	}
+
+	public static void dupleCombination(int primes[], int depth, int count, int sum) {
+
+		if (count == 3) {
+
+			if (sum == N) {
+				C++;
+			}
+
+			return;
+		}
+
+		if (depth == primes.length)
+			return;
+
+		if (sum < N) {
+			dupleCombination(primes, depth + 1, count, sum);
+			dupleCombination(primes, depth, count + 1, sum + primes[depth]);
 		}
 
 	}

@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Solution {
@@ -24,53 +27,68 @@ public class Solution {
 			int M = Integer.parseInt(st.nextToken());
 			int K = Integer.parseInt(st.nextToken());
 
-			boolean customers[] = new boolean[11111 + 1];
+			// boolean customers[] = new boolean[11111 + 1];
+			int customers[] = new int[N];
 
 			st = new StringTokenizer(br.readLine());
 
 			for (int i = 0; i < N; i++) {
-				customers[Integer.parseInt(st.nextToken())] = true;
+				// customers[Integer.parseInt(st.nextToken())] = true;
+				customers[i] = Integer.parseInt(st.nextToken());
 			}
+
+			Arrays.sort(customers);
 
 			int bread = 0;
-			int count = 0;
-			int time = 0;
-
+			int lastCharge = 0;
 			boolean result = true;
 
-			for (int i = 1; i < customers.length; i++) {
+			/*
+			 * M초마다 K개의 빵이 생긴다.
+			 */
 
-				if (count == N)
-					break;
+			for (int i = 0; i < N; i++) {
 
-				time = (time + 1) % M;
+				int chargeTime = customers[i] - lastCharge;// time customer come.
 
-				if (time == 0)
-					bread += K;
-
-				if (customers[i]) {
-
-					if (bread == 0) {
-						result = false;
-						break;
-					}
-					bread--;
-					count++;
+				if (chargeTime >= M) {
+					int chargeNum = chargeTime / M;
+					lastCharge += M * chargeNum;
+					bread += K * chargeNum;
 				}
+
+				if (bread == 0) {
+					result = false;
+					break;
+				}
+
+				bread--;
 
 			}
 
-			String answer = (result) ? "Possibe" : "Impossible";
-			
+			String answer = (result) ? "Possible" : "Impossible";
+
 			StringBuilder sb = new StringBuilder();
 			sb.append("#");
 			sb.append(tc);
 			sb.append(" ");
 			sb.append(answer);
-			
+
 			System.out.println(sb);
 		}
 
+	}
+
+	public static void order(int arr[]) {
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = i + 1; j < arr.length; j++) {
+				if (arr[j] < arr[i]) {
+					int temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
 	}
 
 }

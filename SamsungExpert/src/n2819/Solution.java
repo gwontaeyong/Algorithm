@@ -67,7 +67,9 @@ public class Solution {
 
 						solve(count + 1, num += map[i][j]);
 
-					} 
+					} else {
+						solve(count, num);
+					}
 
 				}
 

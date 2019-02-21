@@ -7,6 +7,7 @@ public class Solution {
     static int[][] arr;
     static int n;
     public static void main(String[] args) throws IOException{
+    	
         Scanner sc = new Scanner(System.in);
         int tc = sc.nextInt();
         for(int i=1;i<=tc;i++) {
@@ -22,5 +23,6 @@ public class Solution {
             if(flag) System.out.println("#"+i+" "+"Exist");
             else System.out.println("#"+i+" "+"Not exist");
         }            
+        
     }
 }

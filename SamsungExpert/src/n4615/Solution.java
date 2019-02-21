@@ -1,3 +1,4 @@
+
 package n4615;
 
 import java.io.BufferedReader;
@@ -13,7 +14,6 @@ public class Solution {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int T = Integer.parseInt(br.readLine());
-		
 
 		int dx[] = { -1, 1, 0, 0, -1, 1, -1, 1 };
 		int dy[] = { 0, 0, -1, 1, -1, -1, 1, 1 };
@@ -26,6 +26,11 @@ public class Solution {
 
 			int map[][] = new int[N + 1][N + 1];
 
+			map[N / 2 + 1][N / 2 + 1] = 2;
+			map[N / 2 + 1][N / 2] = 1;
+			map[N / 2][N / 2 + 1] = 1;
+			map[N / 2][N / 2] = 2;
+
 			for (int i = 0; i < M; i++) {
 				st = new StringTokenizer(br.readLine());
 
@@ -35,16 +40,17 @@ public class Solution {
 
 				map[y][x] = stone;
 
-				// System.out.println(y+ " : "+ x+" : "+i);
 				for (int j = 0; j < 8; j++) {
 
 					int nx = x + dx[j];
 					int ny = y + dy[j];
 
-					// System.out.println(ny);
 					int count = 0;
 
 					while (nx <= N && nx > 0 && ny <= N && ny > 0) {
+
+						if (map[ny][nx] == 0)
+							break;
 
 						if (map[ny][nx] == stone) {
 							nx = x;
@@ -85,6 +91,7 @@ public class Solution {
 				}
 			}
 			System.out.println("#" + tc + " " + black + " " + white);
+
 		}
 	}
 }

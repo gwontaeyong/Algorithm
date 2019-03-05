@@ -72,7 +72,7 @@ public class Main {
 					}
 				}
 
-				//printMap(map);// print map for debug
+				printMap(map);// print map for debug
 			}
 
 			if (map[y][x] == '#') // if man meet the wall. that case is end.
@@ -92,7 +92,7 @@ public class Main {
 
 				// it can be move if the position was not visited and not wall(ground).
 				if (!check[ny][nx] && map[ny][nx] == '.') {
-					// map[ny][nx] = '*'; check visited position for debug
+					map[ny][nx] = '@'; //check visited position for debug
 					check[ny][nx] = true; // check visited
 					queue.add(new Data(nx, ny, depth + 1)); // add next position in to queue.
 				}

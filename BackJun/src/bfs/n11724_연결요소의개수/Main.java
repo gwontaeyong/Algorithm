@@ -9,6 +9,8 @@ import java.util.StringTokenizer;
 
 public class Main {
 
+	static int parent[];
+	static int rank[];
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -20,13 +22,17 @@ public class Main {
 		int N = Integer.parseInt(st.nextToken());
 		int K = Integer.parseInt(st.nextToken());
 
-		int arr[] = new int[N + 1];
+		parent = new int[N + 1];
+		rank = new int[N + 1];
+
+		boolean check[] = new boolean[N+1];
+		int count = 0;
 
 		for(int i = 0; i <= N; i++){
-			makeSet(arr, i);
+			makeSet(i);
 		}
 
-		System.out.println(Arrays.toString(arr));
+
 
 		for (int k = 0; k < K; k++) {
 
@@ -35,21 +41,54 @@ public class Main {
 			int A = Integer.parseInt(st.nextToken());
 			int B = Integer.parseInt(st.nextToken());
 
+			union(A, B);
 		}
+
+		for(int i = 1; i <= N; i++){
+
+			findParent(i);
+
+			if(!check[parent[i]]){
+				count++;
+				check[parent[i]] = true;
+			}
+		}
+
+		//System.out.println(Arrays.toString(parent));
+		System.out.println(count);
 
 		
 	}
 
-	public static void makeSet(int arr[], int a){
-		arr[a] = a;
+	public static void makeSet(int a){
+		parent[a] = a;
+		rank[a] = 0;
 	}
 
-	public static int findParent(int arr[], int a){
+	public static int findParent(int a){
 
-		if(arr[a] == a)
+		if(parent[a] == a)
 			return a;
+		else{
+			parent[a] = findParent(parent[a]);
+			return parent[a];
+		}
 
-		return findParent(arr, arr[a]);
+	}
+
+	public static void union(int a, int b){
+
+		int ap = findParent(a);
+		int bp = findParent(b);
+
+		if(rank[ap] > rank[bp]){
+			parent[bp] = ap;
+		}else{
+			parent[ap] = bp;
+			if(rank[ap] == rank[bp]){
+				rank[bp]++;
+			}
+		}
 	}
 
 

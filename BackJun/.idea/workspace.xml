@@ -1,12 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1003801f-dca6-49eb-80fb-649a18ccb741" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/bfs/n11724_연결요소의개수/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/bfs/n11724_연결요소의개수/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bfs/n11403_미로찾기/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bfs/n11403_미로찾기/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bfs/n16918_범버맨/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bfs/n16918_범버맨/Main.java" afterDir="false" />
+=======
+    <list default="true" id="003f2853-9cb7-4741-bd28-8b69d57b8ca1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackJun.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jar/jsoup-1.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bfs/n1697/숨바꼭질/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bfs/n1697/숨바꼭질/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crolling/ProblemCrolling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crolling/TagCrolling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/n11048/이동하기/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/n11048/이동하기/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3282/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3282/sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6718/s_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bfs/n1260/DFS와BFS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bfs/n1260/DFS와BFS/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/backjun/array/Main_2960.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/Main_2960.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/backjun/standardIO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/standardIO/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/List/Bus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/List/CardGame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/List/MinMax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/List/PartSum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/List2/Paint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/List2/PartSum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1206/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1206/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1209/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1209/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1221/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1221/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1244/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1244/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1244/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1244/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1491/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1491/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1491/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1491/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1493/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1493/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1860/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1860/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1860/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1860/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1860/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1860/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1860/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1860/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n1873/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n1873/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n2805/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n2805/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n2806/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n2806/NQueen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n2806/N_Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n2806/N_Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n2806/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n2806/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n2817/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n2817/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n2819/s_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n2819/s_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n2819/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n2819/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3131/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3131/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3260/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3260/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3260/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3260/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3304/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3304/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3304/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3304/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3307/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3307/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3307/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3307/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3376/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3376/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3499/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3499/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3809/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3809/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3975/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3975/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n3975/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n3975/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4047/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4047/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4299/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4299/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4371/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4371/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4466/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4466/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4522/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4522/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4522/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4522/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4579/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4579/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4579/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4579/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4615/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4615/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4615/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4615/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4615/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4615/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4676/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4676/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4698/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4698/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4698/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4698/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n4789/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n4789/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5162/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5162/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5215/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5215/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5215/Solution_Bitmask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5215/Solution_Bitmask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5215/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5215/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5356/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5356/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5515/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5515/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5603/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5603/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5607/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5607/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5789/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5789/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5948/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5948/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5986/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5986/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n5986/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n5986/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6019/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6019/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6019/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6019/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6057/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6057/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6485/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6485/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6485/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6485/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6485/s_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6485/s_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6692/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6692/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6718/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6718/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6718/s_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6719/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6719/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6808/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6808/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6808/s_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6808/s_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/n6853/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d3/n6853/Solution.java" afterDir="false" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +119,17 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/bfs/n11724_연결요소의개수/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="505">
               <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/crolling/ProblemCrolling.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
               <folding>
                 <element signature="e#889#890#0" expanded="true" />
                 <element signature="e#906#907#0" expanded="true" />
@@ -31,10 +139,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/bfs/n11724_연결요소의개수/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/crolling/TagCrolling.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="11" selection-start-line="11" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+              </folding>
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
             </state>
           </provider>
         </entry>
@@ -54,30 +174,49 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/bfs/n1012_유기농배추/input.txt" />
         <option value="$PROJECT_DIR$/src/bfs/n1012_유기농배추/Main.java" />
         <option value="$PROJECT_DIR$/src/bfs/n11403_미로찾기/input.txt" />
         <option value="$PROJECT_DIR$/src/bfs/n11403_미로찾기/Main.java" />
-        <option value="$PROJECT_DIR$/src/bfs/n11724_연결요소의개수/input.txt" />
-        <option value="$PROJECT_DIR$/src/bfs/n11724_연결요소의개수/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="309" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+=======
+        <option value="$PROJECT_DIR$/src/dp/n11048/이동하기/input.txt" />
+        <option value="$PROJECT_DIR$/src/dp/n11048/이동하기/Main.java" />
+        <option value="$PROJECT_DIR$/src/bfs/n1697/숨바꼭질/input.txt" />
+        <option value="$PROJECT_DIR$/src/bfs/n1697/숨바꼭질/Main.java" />
+        <option value="$PROJECT_DIR$/src/crolling/BackJunCrolling.java" />
+        <option value="$PROJECT_DIR$/src/crolling/TagCrolling.java" />
+        <option value="$PROJECT_DIR$/src/crolling/ProblemCrolling.java" />
+      </list>
+    </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="949" />
+    <option name="width" value="978" />
+    <option name="height" value="1047" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+      <pane id="Scope" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,10 +233,11 @@
               <item name="BackJun" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackJun" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bfs" type="462c0819:PsiDirectoryNode" />
+              <item name="crolling" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BackJun" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="BackJun" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bfs" type="462c0819:PsiDirectoryNode" />
@@ -109,30 +249,49 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bfs" type="462c0819:PsiDirectoryNode" />
               <item name="n16918_범버맨" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+      <pane id="PackagesPane" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551797380320" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551688375271" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/ssafy/algo/homework" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$/src/bfs/n11724_연결요소의개수" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/bfs/n16918_범버맨" />
       <recent name="$PROJECT_DIR$/src/bfs/n11403_미로찾기" />
+=======
+      <recent name="C:\Users\student\git\Algorithm\BackJun\lib\jar" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,13 +306,17 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Main (2)">
+=======
+  <component name="RunManager" selected="Application.TagCrolling">
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bfs.n11403_미로찾기.Main" />
+      <option name="MAIN_CLASS_NAME" value="bfs.n1697.숨바꼭질.Main" />
       <module name="BackJun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bfs.n11403_미로찾기.*" />
+          <option name="PATTERN" value="bfs.n1697.숨바꼭질.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +338,37 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bfs.n1012_유기농배추.Main" />
+      <option name="MAIN_CLASS_NAME" value="dp.n11048.이동하기.Main" />
       <module name="BackJun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bfs.n1012_유기농배추.*" />
+          <option name="PATTERN" value="dp.n11048.이동하기.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemCrolling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crolling.ProblemCrolling" />
+      <module name="BackJun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crolling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagCrolling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crolling.TagCrolling" />
+      <module name="BackJun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crolling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,7 +378,12 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.Main (2)" />
+=======
+        <item itemvalue="Application.TagCrolling" />
+        <item itemvalue="Application.ProblemCrolling" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -200,19 +394,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1003801f-dca6-49eb-80fb-649a18ccb741" name="Default Changelist" comment="" />
-      <created>1551697359278</created>
+      <changelist id="003f2853-9cb7-4741-bd28-8b69d57b8ca1" name="Default Changelist" comment="" />
+      <created>1551662963768</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1551697359278</updated>
       <workItem from="1551697363182" duration="1945000" />
       <workItem from="1551699466690" duration="147000" />
       <workItem from="1551699654754" duration="3271000" />
       <workItem from="1551790867932" duration="2129000" />
+=======
+      <updated>1551662963768</updated>
+      <workItem from="1551662968160" duration="6759000" />
+      <workItem from="1551684436400" duration="4183000" />
+      <workItem from="1551745069629" duration="1275000" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7492000" />
   </component>
   <component name="ToolWindowManager">
@@ -220,6 +422,15 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21938232" />
+=======
+    <option name="totallyTimeSpent" value="12217000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="949" y="0" width="978" height="1047" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25925925" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -228,7 +439,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921347" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26396495" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,7 +453,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32949308" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32968238" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -254,40 +469,46 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bfs/n1012_유기농배추/input.txt">
+    <entry file="file://$PROJECT_DIR$/src/bfs/n2667/단지번호붙이기/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="247">
+          <caret line="32" column="81" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bfs/n1012_유기농배추/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/dp/n11048/이동하기/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="15" />
+        <state relative-caret-position="152">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bfs/n11403_미로찾기/input.txt">
+    <entry file="file://$PROJECT_DIR$/src/dp/n11048/이동하기/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="57">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bfs/n11403_미로찾기/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/bfs/n1697/숨바꼭질/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="307">
           <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+=======
+        <state relative-caret-position="475">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/bfs/n16918_범버맨/input.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -308,9 +529,127 @@
           <folding>
             <element signature="e#889#890#0" expanded="true" />
             <element signature="e#906#907#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/bfs/n1697/숨바꼭질/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crolling/ProblemCrolling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/crolling/TagCrolling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" selection-start-line="11" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BackJun</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jsoup-1.11.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+>>>>>>> 736913670bbaa078cf69db826f94cd1998b497ba
   </component>
 </project>

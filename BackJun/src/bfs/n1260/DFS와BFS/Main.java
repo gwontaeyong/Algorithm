@@ -32,35 +32,55 @@ public class Main {
 			int b = Integer.parseInt(st.nextToken());
 
 			map[a][b] = true;
+			map[b][a] = true;
 		}
 
 		// recursiveDFS(map, new boolean[N + 1], S, 0, N);
-		System.out.println(result);
-		bfs(map, new boolean[N + 1], S, N);
+		// System.out.println(result);
+
+		System.out.println(dfs(map, new boolean[N + 1], S, N));
+		System.out.println(bfs(map, new boolean[N + 1], S, N));
 
 	}
 
-	public static void dfs(boolean map[][], boolean check[], int S, int N) {
+	public static String dfs(boolean map[][], boolean check[], int S, int N) {
 
 		Stack<Integer> stack = new Stack<>();
 
 		StringBuilder sb = new StringBuilder();
-		sb.append(S + " ");
-
+		sb.append(S);
 		stack.push(S);
+		check[S] = true;
 
 		while (!stack.isEmpty()) {
 
-			int temp = stack.pop();
-			
-			for(int i = 1; i < N; i++) {
-				
+			int temp = stack.peek();
+
+			boolean flag = false;
+
+			for (int i = 1; i < N + 1; i++) {
+
+				if (!check[i] && map[temp][i]) {
+
+					sb.append(" " + i);
+					check[i] = true;
+					stack.push(i);
+					flag = true;
+					break;
+				}
+
 			}
-			
+
+			if (!flag) {
+				stack.pop();
+			}
+
 		}
+
+		return sb.toString();
 	}
 
-	public static void bfs(boolean map[][], boolean check[], int S, int N) {
+	public static String bfs(boolean map[][], boolean check[], int S, int N) {
 
 		StringBuilder sb = new StringBuilder();
 
@@ -81,7 +101,7 @@ public class Main {
 			}
 		}
 
-		System.out.println(sb);
+		return sb.toString();
 
 	}
 }

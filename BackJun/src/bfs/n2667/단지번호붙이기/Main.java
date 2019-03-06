@@ -29,7 +29,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		System.setIn(Main.class.getResourceAsStream("input.txt"));//
+		System.setIn(Main.class.getResourceAsStream("input_2.txt"));//
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int N = Integer.parseInt(br.readLine());

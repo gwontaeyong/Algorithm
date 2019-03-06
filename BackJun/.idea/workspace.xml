@@ -50,7 +50,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bfs/n11403_미로찾기/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,15 +61,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crolling/TagCrolling.java">
+        <entry file="file://$PROJECT_DIR$/src/bfs/n11724_연결요소의개수/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="11" selection-start-line="11" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -83,18 +78,25 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>arr</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dp/n11048/이동하기/input.txt" />
-        <option value="$PROJECT_DIR$/src/dp/n11048/이동하기/Main.java" />
-        <option value="$PROJECT_DIR$/src/bfs/n1697/숨바꼭질/input.txt" />
-        <option value="$PROJECT_DIR$/src/bfs/n1697/숨바꼭질/Main.java" />
-        <option value="$PROJECT_DIR$/src/crolling/BackJunCrolling.java" />
-        <option value="$PROJECT_DIR$/src/crolling/TagCrolling.java" />
+        <option value="$PROJECT_DIR$/src/bfs/n1012_유기농배추/input.txt" />
+        <option value="$PROJECT_DIR$/src/bfs/n1012_유기농배추/Main.java" />
+        <option value="$PROJECT_DIR$/src/bfs/n11403_미로찾기/input.txt" />
+        <option value="$PROJECT_DIR$/src/bfs/n11403_미로찾기/Main.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/crolling/ProblemCrolling.java" />
         <option value="$PROJECT_DIR$/src/bfs/n11403_미로찾기/Main.java" />
       </list>
@@ -105,7 +107,6 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -161,7 +162,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\student\git\Algorithm\BackJun\lib\jar" />
+      <recent name="$PROJECT_DIR$/src/bfs/n11724_연결요소의개수" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/bfs/n16918_범버맨" />
+      <recent name="$PROJECT_DIR$/src/bfs/n11403_미로찾기" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,37 +209,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.n11048.이동하기.Main" />
+      <option name="MAIN_CLASS_NAME" value="bfs.n11724_연결요소의개수.Main" />
       <module name="BackJun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.n11048.이동하기.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProblemCrolling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crolling.ProblemCrolling" />
-      <module name="BackJun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="crolling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TagCrolling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crolling.TagCrolling" />
-      <module name="BackJun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="crolling.*" />
+          <option name="PATTERN" value="bfs.n11724_연결요소의개수.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,8 +236,8 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="003f2853-9cb7-4741-bd28-8b69d57b8ca1" name="Default Changelist" comment="" />
-      <created>1551662963768</created>
+      <changelist id="1003801f-dca6-49eb-80fb-649a18ccb741" name="Default Changelist" comment="" />
+      <created>1551697359278</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551662963768</updated>
@@ -294,7 +273,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32968238" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32921347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -306,9 +285,6 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/bfs/n2667/단지번호붙이기/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -319,25 +295,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dp/n11048/이동하기/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="30">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bfs/n1697/숨바꼭질/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/bfs/n11724_연결요소의개수/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bfs/n1697/숨바꼭질/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>

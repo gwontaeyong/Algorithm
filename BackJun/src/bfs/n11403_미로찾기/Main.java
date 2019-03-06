@@ -11,15 +11,7 @@ import java.util.StringTokenizer;
 
 public class Main {
 
-    public static class Node {
-        int x;
-        int y;
 
-        Node(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-    }
 
     public static void main(String[] args) throws IOException {
 
@@ -33,7 +25,6 @@ public class Main {
 
         for (int i = 0; i < M; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-
             for (int j = 0; j < M; j++) {
 
                 if (st.nextToken().equals("1"))
@@ -42,42 +33,46 @@ public class Main {
         }
 
 
-        for (int index = 0; index < M; index++) {//시작점
-            result[index][index] = 1;
-
-            for (int k = 0; k < M; k++) {// 1과 연결이 된 다른 점을 찾는다.
-
-                boolean check[] = new boolean[M];
-
-                Queue<Node> queue = new LinkedList<>();
-                ((LinkedList<Node>) queue).add(new Node(index, k));
-                check[index] = true;
-
-                while (!queue.isEmpty()) {
-
-                    Node temp = queue.poll();
-                    result[temp.x][temp.y] = 1;
+        //0 부터 M-1번까지 탐색 시작
+        for (int i = 0; i < M; i++) {
+            //i 번째 노드에 연결되어 있는 모든 노드들을 Queue에 추가
+            Queue<Integer> queue = new LinkedList<>();
+            boolean check[] = new boolean[M];
 
 
-                    check[temp.y] = true;
+            for(int j = 0; j < M; j++){
+                if (map[i][j]) {
+                    queue.add(j);
+                }
+            }
 
-                    if (map[temp.x][temp.y] ) {
+            while(!queue.isEmpty()){
 
-                        for(int i = 0; i < M; i++) {
-                            if (map[temp.y][i] && !check[i]) {
-                                ((LinkedList<Node>) queue).add(new Node(temp.y, i));
-                            }
-                        }
+                int temp = queue.poll();
+                result[i][temp] = 1;
 
+                check[temp] = true;
+
+                for(int j = 0; j < M; j++){
+                    if (map[temp][j] && !check[j]) {
+                        queue.add(j);
                     }
-
                 }
 
-
             }
+
         }
 
-        for(int[] arr:result)
-            System.out.println(Arrays.toString(arr));
+        StringBuilder sb = new StringBuilder();
+
+        for(int[] arr:result){
+            for(int a:arr){
+                sb.append(String.format("%d ", a));
+            }
+            sb.append("\n");
+        }
+
+        System.out.print(sb);
+
     }
 }

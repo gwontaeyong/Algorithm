@@ -16,8 +16,6 @@ public class ProblemCrolling {
 
     ProblemCrolling(String tag){
 
-
-
     }
 
     public static void main(String[] args) {

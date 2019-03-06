@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        System.setIn(Main.class.getResourceAsStream("input.txt"));
+        System.setIn(Main.class.getResourceAsStream("input_2.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int T = Integer.parseInt(br.readLine());

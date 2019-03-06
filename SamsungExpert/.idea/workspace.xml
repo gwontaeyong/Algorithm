@@ -2,103 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62be8ba4-38f0-4c88-b53e-56efd24a34b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BackJun/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/BackJun.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/lib/jar/jsoup-1.11.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/src/bfs/n1697/숨바꼭질/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/src/bfs/n1697/숨바꼭질/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/src/crolling/ProblemCrolling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/src/crolling/TagCrolling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/src/dp/n11048/이동하기/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BackJun/src/dp/n11048/이동하기/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d3/n3282/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d3/n3282/sample_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d3/n6718/s_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BackJun/src/bfs/n1260/DFS와BFS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackJun/src/bfs/n1260/DFS와BFS/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BackJun/src/com/backjun/array/Main_2960.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackJun/src/array/Main_2960.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BackJun/src/com/backjun/standardIO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackJun/src/standardIO/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/Bus.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/CardGame.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/MinMax.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List/PartSum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List2/Paint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/List2/PartSum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1206/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1206/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1209/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1209/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1221/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1221/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1244/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1244/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1244/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1244/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1491/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1491/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1491/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1491/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1493/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1493/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1860/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1860/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1860/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1860/Checker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1860/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1860/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1860/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1860/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1873/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n1873/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n2805/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n2805/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n2806/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n2806/NQueen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n2806/N_Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n2806/N_Queen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n2806/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n2806/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n2817/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n2817/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n2819/s_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n2819/s_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n2819/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n2819/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3131/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3131/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3260/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3260/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3260/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3260/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3304/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3304/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3304/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3304/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3307/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3307/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3307/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3307/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3376/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3376/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3499/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3499/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3809/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3809/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3975/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3975/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n3975/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n3975/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4047/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4047/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4299/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4299/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4371/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4371/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4466/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4466/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4522/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4522/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4522/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4522/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4579/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4579/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4579/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4579/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4615/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4615/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4615/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4615/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4615/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4615/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4676/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4676/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4698/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4698/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4698/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4698/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n4789/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n4789/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5162/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5162/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5215/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5215/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5215/Solution_Bitmask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5215/Solution_Bitmask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5215/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5215/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5356/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5356/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5515/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5515/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5603/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5603/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5607/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5607/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5789/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5789/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5948/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5948/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5986/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5986/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n5986/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n5986/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6019/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6019/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6019/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6019/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6057/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6057/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6485/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6485/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6485/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6485/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6485/s_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6485/s_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6692/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6692/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6718/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6718/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6718/s_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6719/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6719/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6808/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6808/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6808/s_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6808/s_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n6853/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/n6853/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d3/n3233_정삼각형분할/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d4/n7088_은기의송아지세기/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d4/n7088_은기의송아지세기/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d5/n3308_최장증가부분수열_hard/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackJun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BackJun/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackJun/src/bfs/n11403_미로찾기/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackJun/src/bfs/n11403_미로찾기/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackJun/src/crolling/ProblemCrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackJun/src/crolling/ProblemCrolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d4/n4408/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d4/n4408/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_1206.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_1209.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_1221.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_1493.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_1873.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_2805.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_2806.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_2817.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_3376.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_3499.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_3809.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_4047.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_4299.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_4371.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_4466.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_4676.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_4789.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_5162.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_5215.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_5356.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_5515.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_5603.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_5607.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_5789.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_5948.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_6057.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_6692.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_6719.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/input_6853.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/intput_5607.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/d5/n3308_최장증가부분수열_hard/input.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,22 +52,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/d3/n3282/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/d3/n3233_정삼각형분할/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="342">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/d3/n3282/sample_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -136,6 +69,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -147,22 +81,28 @@
       <list>
         <option value="$PROJECT_DIR$/src/d3/n3282/sample_input.txt" />
         <option value="$PROJECT_DIR$/src/d3/n3282/Solution.java" />
+        <option value="$PROJECT_DIR$/src/d5/n3308_최장증가부분수열_hard/input.txt" />
+        <option value="$PROJECT_DIR$/src/d5/n3308_최장증가부분수열_hard/Solution.java" />
+        <option value="$PROJECT_DIR$/src/d4/n7088_은기의송아지세기/input.txt" />
+        <option value="$PROJECT_DIR$/src/d4/n7088_은기의송아지세기/Solution.java" />
+        <option value="$PROJECT_DIR$/src/d3/n3233_정삼각형분할/Solution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="741" />
-    <option name="width" value="1186" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="926" />
+    <option name="width" value="1001" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,22 +110,58 @@
               <item name="SWExpert" type="b2602c69:ProjectViewProjectNode" />
               <item name="SamsungExpert" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SWExpert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SamsungExpert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SWExpert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SamsungExpert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SWExpert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SamsungExpert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d3" type="462c0819:PsiDirectoryNode" />
+              <item name="n6853" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SWExpert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SamsungExpert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SWExpert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SamsungExpert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d4" type="462c0819:PsiDirectoryNode" />
+              <item name="n7088_은기의송아지세기" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551688375256" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551773641590" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\git\Algorithm\SamsungExpert\src\d4\n4408\n4408" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\student\git\Algorithm\SamsungExpert\src\d4\n7088_은기의송아지세기" />
       <recent name="C:\Users\student\git\Algorithm\SamsungExpert\src\d3\n3282" />
     </key>
   </component>
@@ -201,7 +177,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Solution (2)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="d4.n7088_은기의송아지세기.Solution" />
+      <module name="SWExpert" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="d4.n7088_은기의송아지세기.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="d3.n3233_정삼각형분할.Solution" />
+      <module name="SWExpert" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="d3.n3233_정삼각형분할.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="d3.n3282.Solution" />
       <module name="SWExpert" />
@@ -217,6 +219,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
@@ -233,17 +237,18 @@
       <updated>1551682633472</updated>
       <workItem from="1551682635913" duration="3110000" />
       <workItem from="1551745068415" duration="1200000" />
+      <workItem from="1551760760472" duration="6758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4310000" />
+    <option name="totallyTimeSpent" value="11068000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="741" y="0" width="1186" height="1047" extended-state="1" />
+    <frame x="926" y="0" width="1001" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1589698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31880978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -252,8 +257,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -291,8 +296,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/d3/n3282/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="304">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -303,6 +308,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d5/n3308_최장증가부분수열_hard/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d5/n3308_최장증가부분수열_hard/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d4/n7088_은기의송아지세기/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d4/n4408/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d4/n7088_은기의송아지세기/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="77" lean-forward="true" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d4/n4408/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d3/n6853/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d3/n3233_정삼각형분할/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

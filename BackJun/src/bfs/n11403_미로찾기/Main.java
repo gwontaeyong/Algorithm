@@ -33,7 +33,7 @@ public class Main {
 
         for (int i = 0; i < M; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            map[i][i] = true;
+
             for (int j = 0; j < M; j++) {
 
                 if (st.nextToken().equals("1"))
@@ -42,24 +42,23 @@ public class Main {
         }
 
 
-        for (int index = 0; index < M; index++) {
+        for (int index = 0; index < M; index++) {//시작점
             result[index][index] = 1;
 
-            for (int k = 0; k < M; k++) {
+            for (int k = 0; k < M; k++) {// 1과 연결이 된 다른 점을 찾는다.
 
                 boolean check[] = new boolean[M];
 
                 Queue<Node> queue = new LinkedList<>();
                 ((LinkedList<Node>) queue).add(new Node(index, k));
-
-
+                check[index] = true;
 
                 while (!queue.isEmpty()) {
 
                     Node temp = queue.poll();
                     result[temp.x][temp.y] = 1;
 
-                    check[temp.x] = true;
+
                     check[temp.y] = true;
 
                     if (map[temp.x][temp.y] ) {

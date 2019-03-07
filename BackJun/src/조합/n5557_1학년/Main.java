@@ -48,14 +48,11 @@ public class Main {
             return;
 
 
-        if (arr[idx] == 0)
-            idx += 1;
+
 
         combination(sum + arr[idx], idx + 1);
         combination(sum - arr[idx], idx + 1);
 
-        if (arr[idx] == 0)
-            idx -= 1;
 
     }
 }

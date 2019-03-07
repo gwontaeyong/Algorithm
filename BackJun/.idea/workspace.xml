@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05c42525-b11f-48b8-88ba-2a05ec590fbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dfs/n1987_알파벳/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dfs/n1987_알파벳/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dfs/n2583_영역구하기/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dfs/n2583_영역구하기/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/조합/n5557_1학년/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/조합/n5557_1학년/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/n1697_숨바꼭질/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/n1697_숨바꼭질/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/n6603_로또/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/n6603_로또/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/n9663_NQueen/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/n9663_NQueen/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n3752_가능한시험점수/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n3752_가능한시험점수/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n4530_극한의청소작업/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n4530_극한의청소작업/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crolling/ProblemCrolling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crolling/TagCrolling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/조합/n5557_1학년/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/조합/n5557_1학년/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,19 +25,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/조합/n5557_1학년/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/n9663_NQueen/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            <state relative-caret-position="275">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/조합/n5557_1학년/input.txt">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/n9663_NQueen/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -61,14 +64,19 @@
         <option value="$PROJECT_DIR$/src/dfs/n1987_알파벳/Main.java" />
         <option value="$PROJECT_DIR$/src/조합/n5557_1학년/input.txt" />
         <option value="$PROJECT_DIR$/src/조합/n5557_1학년/Main.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/n1697_숨바꼭질/input.txt" />
+        <option value="$PROJECT_DIR$/src/backtracking/n1697_숨바꼭질/Main.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/n6603_로또/input.txt" />
+        <option value="$PROJECT_DIR$/src/backtracking/n6603_로또/Main.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/n9663_NQueen/input.txt" />
+        <option value="$PROJECT_DIR$/src/backtracking/n9663_NQueen/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="840" />
-    <option name="y" value="23" />
-    <option name="width" value="840" />
-    <option name="height" value="960" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="742" />
+    <option name="width" value="1185" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -78,6 +86,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,14 +104,26 @@
               <item name="BackJun" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackJun" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="n5557_1학년" type="462c0819:PsiDirectoryNode" />
+              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackJun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackJun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="n6603_로또" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackJun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackJun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="n9663_NQueen" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -111,8 +133,8 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="backjun" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551876762477" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551944365927" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SamsungExpert" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -121,15 +143,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/조합/n5557_1학년" />
-      <recent name="$PROJECT_DIR$/src/dfs/n2583_영역구하기" />
-      <recent name="$PROJECT_DIR$/src/dfs/n9466_텀프로젝트" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\git\Algorithm\BackJun\src\backtracking\n1697_숨바꼭질\n1697_숨바꼭질" />
       <recent name="$PROJECT_DIR$/src/dfs/n1987_알파벳" />
       <recent name="$PROJECT_DIR$/src/dfs/n2583_영역구하기" />
       <recent name="$PROJECT_DIR$/src/dfs/n9466_텀프로젝트/n9466_텀프로젝트" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\student\git\Algorithm\BackJun\src\backtracking\n9663_NQueen" />
+      <recent name="C:\Users\student\git\Algorithm\BackJun\src\backtracking\n6603_로또" />
+      <recent name="C:\Users\student\git\Algorithm\BackJun\src\backtracking\n1697_숨바꼭질" />
+      <recent name="$PROJECT_DIR$/src/조합/n5557_1학년" />
+      <recent name="$PROJECT_DIR$/src/dfs/n2583_영역구하기" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -144,26 +169,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bfs.n7569_토마토.Main" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.n9663_NQueen.Main" />
       <module name="BackJun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bfs.n7569_토마토.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs.n2583_영역구하기.Main" />
-      <module name="BackJun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dfs.n2583_영역구하기.*" />
+          <option name="PATTERN" value="backtracking.n9663_NQueen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +209,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.bfs.n2178.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.n1697_숨바꼭질.Main" />
       <module name="BackJun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bfs.n2178.*" />
+          <option name="PATTERN" value="backtracking.n1697_숨바꼭질.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.n6603_로또.Main" />
+      <module name="BackJun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.n6603_로또.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -234,11 +259,12 @@
       <workItem from="1551833755953" duration="8000" />
       <workItem from="1551866650128" duration="580000" />
       <workItem from="1551867245884" duration="7515000" />
+      <workItem from="1551916899288" duration="8648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8150000" />
+    <option name="totallyTimeSpent" value="16798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,10 +276,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="23" width="1671" height="960" extended-state="6" />
+    <frame x="742" y="0" width="1185" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16144875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,7 +288,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32949308" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33187294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,7 +298,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32949308" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32858709" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -337,17 +363,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/조합/n5557_1학년/input.txt">
+    <entry file="file://$PROJECT_DIR$/src/dp/n11048/이동하기/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="-390">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/조합/n5557_1학년/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="13">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/조합/n5557_1학년/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/n1697_숨바꼭질/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/n1697_숨바꼭질/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/n6603_로또/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/n6603_로또/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/n9663_NQueen/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/n9663_NQueen/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main.java" line="42" />
+    <bookmark url="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main.java" line="48" />
+    <bookmark url="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main.java" line="36" />
+    <bookmark url="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main.java" line="22" />
+    <bookmark url="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main2.java" line="38" />
+    <bookmark url="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main2.java" line="40" />
+    <bookmark url="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main.java" line="39" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="05c42525-b11f-48b8-88ba-2a05ec590fbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/n1697_숨바꼭질/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/n1697_숨바꼭질/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/n6603_로또/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/n6603_로또/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/n9663_NQueen/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/n9663_NQueen/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n3752_가능한시험점수/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n3752_가능한시험점수/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n4530_극한의청소작업/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n4530_극한의청소작업/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/n11048_이동하기/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/n14916_거스름돈/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/n14916_거스름돈/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/조합/n5557_1학년/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/조합/n5557_1학년/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/n11048/이동하기/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/n14916_거스름돈/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/n11048/이동하기/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/n11048_이동하기/input.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,24 +28,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/backtracking/n9663_NQueen/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="126">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backtracking/n9663_NQueen/input.txt">
+        <entry file="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-309">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="23" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <replaceStrings>
@@ -70,12 +95,15 @@
         <option value="$PROJECT_DIR$/src/backtracking/n6603_로또/Main.java" />
         <option value="$PROJECT_DIR$/src/backtracking/n9663_NQueen/input.txt" />
         <option value="$PROJECT_DIR$/src/backtracking/n9663_NQueen/Main.java" />
+        <option value="$PROJECT_DIR$/src/dp/n14916_거스름돈/input.txt" />
+        <option value="$PROJECT_DIR$/src/dp/n14916_거스름돈/Main.java" />
+        <option value="$PROJECT_DIR$/src/dp/n14916_거스름돈/Main2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="742" />
-    <option name="width" value="1185" />
+    <option name="x" value="768" />
+    <option name="width" value="1159" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -87,7 +115,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,26 +131,20 @@
               <item name="BackJun" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackJun" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BackJun" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackJun" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
-              <item name="n6603_로또" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackJun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackJun" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
-              <item name="n9663_NQueen" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
+              <item name="n14916_거스름돈" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,7 +154,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="backjun" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551944365927" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552024567225" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SamsungExpert" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -143,17 +164,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\student\git\Algorithm\BackJun\src\backtracking\n1697_숨바꼭질\n1697_숨바꼭질" />
-      <recent name="$PROJECT_DIR$/src/dfs/n1987_알파벳" />
-      <recent name="$PROJECT_DIR$/src/dfs/n2583_영역구하기" />
-      <recent name="$PROJECT_DIR$/src/dfs/n9466_텀프로젝트/n9466_텀프로젝트" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\student\git\Algorithm\BackJun\src\dp\n11048_이동하기" />
       <recent name="C:\Users\student\git\Algorithm\BackJun\src\backtracking\n9663_NQueen" />
       <recent name="C:\Users\student\git\Algorithm\BackJun\src\backtracking\n6603_로또" />
       <recent name="C:\Users\student\git\Algorithm\BackJun\src\backtracking\n1697_숨바꼭질" />
       <recent name="$PROJECT_DIR$/src/조합/n5557_1학년" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\git\Algorithm\BackJun\src\dp\n14916_거스름돈" />
+      <recent name="C:\Users\student\git\Algorithm\BackJun\src\dp\n11048\이동하기\n11048_이동하기" />
+      <recent name="C:\Users\student\git\Algorithm\BackJun\src\backtracking\n1697_숨바꼭질\n1697_숨바꼭질" />
+      <recent name="$PROJECT_DIR$/src/dfs/n1987_알파벳" />
       <recent name="$PROJECT_DIR$/src/dfs/n2583_영역구하기" />
     </key>
   </component>
@@ -169,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtracking.n9663_NQueen.Main" />
       <module name="BackJun" />
@@ -183,25 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs.n1987_알파벳.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.n14916_거스름돈.Main" />
       <module name="BackJun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dfs.n1987_알파벳.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="조합.n5557_1학년.Main" />
-      <module name="BackJun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="조합.n5557_1학년.*" />
+          <option name="PATTERN" value="dp.n14916_거스름돈.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,13 +244,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.n14916_거스름돈.Main2" />
+      <module name="BackJun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.n14916_거스름돈.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -259,12 +281,13 @@
       <workItem from="1551833755953" duration="8000" />
       <workItem from="1551866650128" duration="580000" />
       <workItem from="1551867245884" duration="7515000" />
-      <workItem from="1551916899288" duration="8648000" />
+      <workItem from="1551916899288" duration="9213000" />
+      <workItem from="1552012716251" duration="8147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16798000" />
+    <option name="totallyTimeSpent" value="25510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,10 +299,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="742" y="0" width="1185" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="768" y="0" width="1159" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28298452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -288,7 +310,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33187294" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49954504" weight="0.33187294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -297,8 +319,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32858709" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50045496" side_tool="true" visible="true" weight="0.32858709" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49954504" visible="true" weight="0.32858709" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -363,13 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/n11048/이동하기/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/조합/n5557_1학년/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
@@ -412,6 +427,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/n9663_NQueen/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/n9663_NQueen/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -419,10 +441,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/n9663_NQueen/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/dp/n11048_이동하기/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/n11048_이동하기/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/n14916_거스름돈/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,9 +11,9 @@ class PowerSet {
         int r = 3;
 
         // combination(arr, check, n, 0, r);
-        // dupleCombination(arr, new int[r], check, n, 0, r, 0);
+         dupleCombination(arr, new int[r], n, 0, r, 0);
        // permutation(arr, new int[r], check, n, 0, r);
-        duplePermutation(arr, new int[r], n, r, 0);
+        //duplePermutation(arr, new int[r], n, r, 0);
     }
 
     public static void combination(int arr[], boolean check[], int n, int i, int r) {
@@ -44,7 +44,7 @@ class PowerSet {
 
     }
 
-    public static void dupleCombination(int arr[], int result[], boolean check[], int n, int i, int r, int count) {
+    public static void dupleCombination(int arr[], int result[], int n, int i, int r, int count) {
 
         if (count == r) {
 
@@ -64,7 +64,7 @@ class PowerSet {
         for (int j = i; j < n; j++) {
 
             result[count] = arr[j];
-            dupleCombination(arr, result, check, n, j, r, count + 1);
+            dupleCombination(arr, result, n, j, r, count + 1);
 
 
         }

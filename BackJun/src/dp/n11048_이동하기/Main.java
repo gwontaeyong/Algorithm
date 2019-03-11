@@ -1,4 +1,4 @@
-package dp.n11048.이동하기;
+package dp.n11048_이동하기;
 
 import java.io.BufferedReader;
 import java.io.IOException;

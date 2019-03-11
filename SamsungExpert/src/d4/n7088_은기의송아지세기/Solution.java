@@ -20,12 +20,12 @@ public class Solution {
             int N = Integer.parseInt(st.nextToken());
             int Q = Integer.parseInt(st.nextToken());
 
-            int dp[][]  = new int[N+1][4];
+            int dp[][] = new int[N + 1][4];
 
-            for(int i = 1; i <= N; i++){
+            for (int i = 1; i <= N; i++) {
                 int cow = Integer.parseInt(br.readLine());
 
-                for (int j = 1; j <=3; j++) {
+                for (int j = 1; j <= 3; j++) {
                     dp[i][j] = dp[i - 1][j];
                 }
                 dp[i][cow] = dp[i][cow] + 1;
@@ -36,17 +36,18 @@ public class Solution {
 
             bw.write(String.format("#%d\n", tc));
 
-            for(int i = 0; i < Q; i++){
+            for (int i = 0; i < Q; i++) {
                 st = new StringTokenizer(br.readLine());
                 int A = Integer.parseInt(st.nextToken());
                 int B = Integer.parseInt(st.nextToken());
 
-                int first = dp[B][1] - dp[A-1][1];
-                int second = dp[B][2] - dp[A-1][2];
-                int third = dp[B][3] - dp[A-1][3];;
+                int first = dp[B][1] - dp[A - 1][1];
+                int second = dp[B][2] - dp[A - 1][2];
+                int third = dp[B][3] - dp[A - 1][3];
+                ;
 
 
-               bw.write(String.format("%d %d %d\n", first, second, third));
+                bw.write(String.format("%d %d %d\n", first, second, third));
 
             }
 

@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5e1d6e1-a240-4c30-9070-03f55c99ad7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2247_도서관/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2247_도서관/src/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n1808_지희의고장난시계/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n1808_지희의고장난시계/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n7208_지도칠하기/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n7208_지도칠하기/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n7260_숫자세기/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SamsungExpert/src/d4/n7088_은기의송아지세기/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n7088_은기의송아지세기/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackJun/src/recursive/n17070_파이프옮기기1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackJun/src/recursive/n17070_파이프옮기기1/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n1238_Contact/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SamsungExpert/src/d4/n1238_Contact/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2247_도서관/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2247_도서관/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2247_도서관/src/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2247_도서관/src/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/2247_도서관/Main$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/2247_도서관/Main$Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/2247_도서관/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/2247_도서관/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/2247_도서관/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/2247_도서관/input.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,12 +24,12 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/2247_도서관/src/input.txt">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state>
-                    <caret selection-end-line="4" selection-end-column="5" />
+                  <state relative-caret-position="57">
+                    <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
                   </state>
                 </provider>
               </entry>
@@ -42,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2247_도서관/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="69" column="29" selection-end-line="87" />
+            <state relative-caret-position="166">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,9 +73,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1204" />
+    <option name="width" value="723" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,6 +84,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,14 +108,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552279755202" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552353629192" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -157,17 +159,18 @@
       <updated>1552272944236</updated>
       <workItem from="1552272946728" duration="3184000" />
       <workItem from="1552279780445" duration="2310000" />
+      <workItem from="1552349521607" duration="3790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5494000" />
+    <option name="totallyTimeSpent" value="9284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1204" y="0" width="723" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.43589744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -176,8 +179,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3264642" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3263965" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -201,21 +204,33 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2247_도서관/src/Main.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2247_도서관/src/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2247_도서관/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="69" column="29" selection-end-line="87" />
+        <state relative-caret-position="166">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2247_도서관/src/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>

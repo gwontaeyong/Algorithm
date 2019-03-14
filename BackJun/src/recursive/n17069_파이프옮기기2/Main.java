@@ -10,77 +10,59 @@ public class Main {
     static int N;
     static boolean map[][];
 
-    static int S = 0;
-    static int L = 1;
-    static int R = 2;
+    static long dp[][][];
 
-    static int C = 0; //크로스
-    static int H = 1; //가로
-    static int V = 2; //세로
-
-    // state, direction
-    static int mx[][] = {{1, 1, 0}, {1, 1, 1}, {0, 1, -1}};
-    static int my[][] = {{1, 0, 1}, {0, -1, 1}, {1, 1, 1}};
-    static int dp[][][];
-
-    static int count;
+    static int H = 0;
+    static int V = 1;
+    static int C = 2;
 
     public static void main(String[] args) throws IOException {
 
         System.setIn(Main.class.getResourceAsStream("input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-
-        //변수 초기화
-        count = 0;
         N = Integer.parseInt(br.readLine());
 
         map = new boolean[N][N];
 
         // 장애물이 있으면 true
         for (int i = 0; i < N; i++) {
-
             StringTokenizer st = new StringTokenizer(br.readLine());
-
             for (int j = 0; j < N; j++) {
                 map[i][j] = st.nextToken().equals("1");
             }
         }
 
-        //
-        dp = new int[3][N][N];
+        dp = new long[N][N][3];
+        dp[0][1][H] = 1;
 
-        for (int i = 0; i < N; i++) {
-            if (!map[0][i])
-                dp[H][0][i] = 1;
+        //가로로 출발하는 경우
+        for(int i = 2; i < N; i++){
+            if(map[0][i])
+                continue;
+            dp[0][i] = dp[0][i - 1];
         }
 
+
         for (int i = 1; i < N; i++) {
-            for (int j = 1; j < N; j++) {
+            for (int j = 2; j < N; j++) {
 
                 if(map[i][j])
                     continue;
 
+                dp[i][j][H] = dp[i][j-1][H] + dp[i][j -1][C];
+                dp[i][j][V] = dp[i-1][j][V] + dp[i-1][j][C];
 
+                if( map[i-1][j] || map[i][j-1])
+                    continue;
 
-                dp[H][i][j] = dp[C][i][j - 1] + dp[H][i][j - 1];
-                dp[V][i][j] = dp[C][i - 1][j] + dp[V][i - 1][j];
-                dp[V][i][j] = dp[C][i - 1][j - 1] + dp[V][i - 1][j - 1] + dp[H][i - 1][j - 1];
-
+                dp[i][j][C] = dp[i - 1][j-1][H] + dp[i - 1][j-1][V]+ dp[i - 1][j-1][C];
             }
         }
 
-
-        System.out.println(count);
-
+        long answer = dp[N-1][N-1][C] + dp[N-1][N-1][V] + dp[N-1][N-1][H];
+        System.out.println(answer);
     }
 
-    static void printS(int x, int y, int s, int d) {
-
-        char ss = (s == 0) ? 'C' : (s == 1) ? 'H' : 'V';
-        char dd = (d == 0) ? 'S' : (d == 1) ? 'L' : 'R';
-
-        System.out.println(String.format("X = %d, Y = %d, %c %c", x, y, ss, dd));
-    }
 
 }

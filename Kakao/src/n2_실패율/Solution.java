@@ -69,10 +69,6 @@ class Solution {
             answer[i] = list.get(i).stage;
         }
 
-//        System.out.println(Arrays.toString(people));
-//        System.out.println(Arrays.toString(fail));
-//        System.out.println(list);
-
 
 
         return answer;

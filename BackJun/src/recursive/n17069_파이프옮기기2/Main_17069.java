@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main_17069 {
+public class    Main_17069 {
 
 	static int[][] arr;
 	static int N;

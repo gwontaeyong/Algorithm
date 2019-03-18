@@ -11,7 +11,7 @@ public class Main {
     static int change[] = {0, 2, 5};
 
     public static void main(String[] args) throws IOException {
-        //System.setIn(Main.class.getResourceAsStream("input.txt"));
+        //System.setIn(Solution.class.getResourceAsStream("input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int M = Integer.parseInt(br.readLine());

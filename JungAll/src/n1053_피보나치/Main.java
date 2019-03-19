@@ -1,3 +1,5 @@
+package n1053_피보나치;
+
 import java.util.Scanner;
 
 public class Main {
@@ -7,15 +9,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        while(true){
+        while (true) {
 
             int n = scan.nextInt();
 
-            if(n == -1)
+            if (n == -1)
                 break;
-            else if(n == 0){
+            else if (n == 0) {
                 System.out.println(0);
-            }else{
+            } else {
                 int result[][] = fibo(n);
 
                 System.out.println(result[1][0]);

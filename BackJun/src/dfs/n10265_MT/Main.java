@@ -48,9 +48,6 @@ public class Main {
             noFriend(i, 0, new boolean[N + 1]);
         }
 
-        System.out.println(Arrays.toString(dp));
-
-        System.out.println(noFriend(1, 0));
 
     }
 
@@ -66,25 +63,6 @@ public class Main {
 
     }
 
-    public static int noFriend(int n, int count) {
-
-
-        if (dp2[n] != 0) {
-
-            return dp2[n];
-
-        } else if (n == friend[n]) {
-
-            return 1;
-
-        } else {
-
-            dp2[n] = count + noFriend(friend[n], count + 1);
-
-
-        }
-
-    }
 
 
 }

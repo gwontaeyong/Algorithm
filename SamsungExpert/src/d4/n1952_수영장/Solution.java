@@ -48,18 +48,6 @@ public class Solution {
             }
             System.out.println(Arrays.toString(dp));
 
-            //3달
-            for(int i = 1; i <= 10; i++){
-
-                int temp = dp[i] + dp[i + 1] + dp[i + 2];
-                int temp2 = dp[i] + dp[i + 1] + dp[i - 1];
-                if(pay[2] < ){
-                    for(int j = i; j < i + 3; j++){
-                        dp[j] = pay[2] + dp[i - 1];
-                    }
-                }
-
-            }
 
             System.out.println(Arrays.toString(dp));
 

@@ -1,68 +1,72 @@
-package d4.n2105_디저트카페;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class Solution {
+    static int T, N, sx, sy;
+    static int arrX[] = { 1, 1, -1, -1 }; // 아오 아왼 왼위 오위
+    static int arrY[] = { 1, -1, -1, 1 };
+    static int res;
+    static boolean chk[];
+    static int[][] map;
 
-    static int map[][];
-    static int n;
-    static int answer;
+    static boolean Range(int x, int y) {
+        if (x < 0 || y < 0 || x >= N || y >= N)
+            return false;
+        return true;
+    }
 
-    static int dx[][] = {{1, 1}, {1, -1}, {-1, -1}, {-1, 1}};
-    static int dy[][] = {{-1, 1}, {1, 1}, {1, -1}, {-1, -1}};
+    static void dfs(int x, int y, int status, int cnt) {
+        if (x == sx && y == sy && status != -1) {
+            res = Math.max(res, cnt);
+            return;
+        }
 
-    public static void main(String[] args) throws NumberFormatException, IOException {
-        System.setIn(Solution.class.getResourceAsStream("input.txt"));
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        for (int i = 0; i < 4; i++) {
+            if (status + 1 == i || status == i) { // 다음 이거나 가던길 쭉감
+                int nx = x + arrX[i];
+                int ny = y + arrY[i];
 
-        int T = Integer.parseInt(br.readLine());
-
-        for (int tc = 1; tc <= T; tc++) {
-
-            int n = Integer.parseInt(br.readLine());
-
-            map = new int[n][n];
-            answer = 0;
-
-            for (int i = 0; i < n; i++) {
-                StringTokenizer st = new StringTokenizer(br.readLine());
-                for (int j = 0; j < n; j++) {
-                    map[i][j] = Integer.parseInt(st.nextToken());
+                if (Range(nx, ny)) {
+                    if (chk[map[nx][ny]] == false) {
+                        chk[map[nx][ny]] = true;
+                        dfs(nx, ny, i, cnt + 1);
+                        chk[map[nx][ny]] = false;
+                    } else if (chk[map[nx][ny]] == true && nx == sx && ny == sy) {
+                        dfs(nx, ny, i, cnt);
+                    }
                 }
             }
-
-            for (int i = 1; i < n; i++) {
-                for (int j = 0; j < n - 2; j++) {
-                    boolean visited[][] = new boolean[n][n];
-                    visited[i][j] = true;
-                    boolean dessert[] = new boolean[101];
-                    dessert[map[i][j]] = true;
-
-                    dfs(visited, dessert, j, i, 0, 1);
-                }
-            }
-
-            System.out.println(answer);
-
-
         }
     }
 
-    public static void dfs(boolean visited[][], boolean dessert[], int x, int y, int curve, int count) {
+    public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
+        for (int tc = 1; tc <= T; tc++) {
+            N = sc.nextInt();
+            res = 0;
+            sx = sy = -1;
+            map = new int[N][N];
+            chk = new boolean[102];
+            for (int i = 0; i < N; i++) {
+                for (int j = 0; j < N; j++) {
+                    map[i][j] = sc.nextInt();
+                }
+            }
 
+            for (int i = 0; i < N; i++) {
+                for (int j = 0; j < N; j++) {
+                    chk[map[i][j]] = true;
+                    sx = i;
+                    sy = j;
+                    dfs(i, j, -1, 1);
+                    chk[map[i][j]] = false;
+                }
+            }
 
-
-    }
-
-
-    public static boolean isRange(int x, int y) {
-        if (x < 0 || x >= n || y < 0 || y >= n)
-            return false;
-
-        return true;
+            if (res == 0)
+                res = -1;
+            System.out.println("#" +tc + " " + res);
+        }
     }
 }

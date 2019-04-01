@@ -35,33 +35,24 @@ public class Solution {
                 months[i] = Integer.parseInt(st.nextToken());
 
 
-            //1일
-            for(int i = 1; i <= 12; i++){
-                dp[i] = months[i] * pay[0] + dp[i - 1];
-            }
-            System.out.println(Arrays.toString(dp));
+            for (int i = 1; i < 13; i++) {
 
-            //1달
-            for(int i = 1; i <= 12; i++){
-                int temp = Math.min(dp[i - 1] + pay[1], dp[i - 1] + months[i] * pay[0]);
-                dp[i] = Math.min(temp, dp[i]);
-            }
-            System.out.println(Arrays.toString(dp));
-
-            //3달
-            for(int i = 1; i <= 10; i++){
-
-                int temp = dp[i] + dp[i + 1] + dp[i + 2];
-                int temp2 = dp[i] + dp[i + 1] + dp[i - 1];
-                if(pay[2] < ){
-                    for(int j = i; j < i + 3; j++){
-                        dp[j] = pay[2] + dp[i - 1];
-                    }
+                if (months[i - 1] == 0) {
+                    dp[i] = dp[i - 1];
+                    continue;
                 }
 
+                dp[i] = Math.min(dp[i - 1] + pay[0] * months[i - 1], dp[i - 1] + pay[1]);
+
+                if (i >= 3) {
+                    dp[i] = Math.min(dp[i], dp[i - 3] + pay[2]);
+                }
             }
 
-            System.out.println(Arrays.toString(dp));
+
+            int answer = Math.min(dp[12], pay[3]);
+
+            System.out.println(answer);
 
 
         }

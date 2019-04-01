@@ -3,81 +3,56 @@ package n2283_RGB마을;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Main {
 
-    static class Student implements Comparable<Student>{
-        int start;
-        int end;
-
-        public Student(int start, int end) {
-            this.start = start;
-            this.end = end;
-        }
-
-        @Override
-        public String toString() {
-            return "Student{" +
-                    "start=" + start +
-                    ", end=" + end +
-                    '}';
-        }
-
-        @Override
-        public int compareTo(Student o) {
-
-            return this.start < o.start? -1 : 1;
-        }
-    }
-
     public static void main(String[] args) throws IOException {
 
-        System.setIn(Main.class.getResourceAsStream("input.txt"));
+        System.setIn(Main.class.getResourceAsStream("INPUT.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
-        Student[] students = new Student[N];
-
+        int house[][] = new int[N][3];
+        int rgb[] = new int[3];
 
         for (int i = 0; i < N; i++) {
-            String line[] = br.readLine().split(" ");
-            int start = Integer.parseInt(line[0]);
-            int end = Integer.parseInt(line[1]);
-            students[i] = new Student(start, end);
-        }
 
+            StringTokenizer st = new StringTokenizer(br.readLine());
 
-        Arrays.sort(students);
-
-        int start = students[0].start;
-        int end = students[0].end;
-
-        int empty = 0;
-        int full = end - start;
-
-        for(int i = 1; i < N; i++){
-            Student st = students[i];
-            //중복 부분이 있을때
-            if(end >= start){
-                //end = st.end;
-                end = (end < st.end)? st.end:end;
-                int newf = end - start;
-                full = (newf > full)? newf:full;
-            }else{
-                start = st.start;
-                int newe = start - end;
-                end = st.end;
-                empty = (empty < newe)?newe:empty;
+            for (int j = 0; j < 3; j++) {
+                house[i][j] = Integer.parseInt(st.nextToken());
             }
         }
 
-        int nf = end - start;
-        full = (nf > full)? nf:full;
+        rgb[0] = house[0][0];
+        rgb[1] = house[0][1];
+        rgb[2] = house[0][2];
 
-        System.out.println(Arrays.toString(students));
-        System.out.println(full + " : " + empty);
+        int temp[] = new int[3];
 
+
+        for (int i = 1; i < N; i++) {
+
+            temp[0] = house[i][0] + Math.min(rgb[1], rgb[2]);
+            temp[1] = house[i][1] + Math.min(rgb[0], rgb[2]);
+            temp[2] = house[i][2] + Math.min(rgb[1], rgb[0]);
+
+
+            rgb[0] = temp[0];
+            rgb[1] = temp[1];
+            rgb[2] = temp[2];
+
+            //rgb = temp;
+
+        }
+
+
+        int answer = Math.min(rgb[0], Math.min(rgb[1], rgb[2]));
+
+        System.out.println(answer);
 
 
     }

@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        System.setIn(Main.class.getResourceAsStream("input.txt"));
+        System.setIn(Main.class.getResourceAsStream("INPUT.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         HashMap<Integer, Character> secret = new HashMap<>();

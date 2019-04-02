@@ -70,14 +70,19 @@ public class Main {
 
     public static void dfs(int map[][], int count) {
 
-
         //System.out.println("dfs");
-
-
         if (count == 3) {
             //printMap(map);
-            int tempMap[][] = map.clone();
-            int newVirus = bfs(map);
+            int tempMap[][] = new int[R][C];
+
+            for(int r = 0; r < R; r++){
+                tempMap[r] = map[r].clone();
+            }
+
+            int newVirus = bfs(tempMap);
+
+           // if(max < )
+            printMap(tempMap);
             max = Math.min(max, newVirus);
             return;
         }
@@ -98,7 +103,6 @@ public class Main {
     public static int bfs(int map[][]) {
         int answer = 0;
 
-        //int tempMap[][] = Arrays.copyOf(map, map.length);
         Queue<Point> queue ;
         queue = (LinkedList) virus.clone();
 

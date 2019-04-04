@@ -31,7 +31,6 @@ public class Main {
         System.setIn(Main.class.getResourceAsStream("input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         R = Integer.parseInt(st.nextToken());
@@ -39,8 +38,7 @@ public class Main {
 
         map = new int[R][C];
         virus = new LinkedList<>();
-        nb = 0;
-        max = 9999;
+        max = 0;
 
         for (int i = 0; i < R; i++) {
             st = new StringTokenizer(br.readLine());
@@ -62,9 +60,9 @@ public class Main {
 
 
         dfs(map, 0);
-        int answer = R * C - nb - max;
-
-        System.out.println(answer);
+        System.out.println(max);
+        //int answer = R * C - nb - max;
+        //System.out.println(answer);
 
     }
 
@@ -79,11 +77,9 @@ public class Main {
                 tempMap[r] = map[r].clone();
             }
 
-            int newVirus = bfs(tempMap);
+            bfs(tempMap);
 
-           // if(max < )
-            printMap(tempMap);
-            max = Math.min(max, newVirus);
+            max = Math.max(max, get(tempMap));
             return;
         }
 
@@ -100,7 +96,7 @@ public class Main {
 
     }
 
-    public static int bfs(int map[][]) {
+    public static int bfs(int tempM[][]) {
         int answer = 0;
 
         Queue<Point> queue ;
@@ -115,10 +111,10 @@ public class Main {
                 int nr = temp.y + dr[i];
                 int nc = temp.x + dc[i];
 
-                if (!isRange(nr, nc) || map[nr][nc] != 0)
+                if (!isRange(nr, nc) || tempM[nr][nc] != 0)
                     continue;
 
-                map[nr][nc] = 2;
+                tempM[nr][nc] = 2;
                 ((LinkedList<Point>) queue).add(new Point(nc, nr));
             }
         }
@@ -135,6 +131,19 @@ public class Main {
         return true;
     }
 
+    public static int get(int map[][]){
+
+        int answer = 0;
+
+        for(int arr[]: map){
+            for(int i : arr){
+                if(i == 0)
+                    answer++;
+            }
+        }
+
+        return answer;
+    }
     public static void printMap(int map[][]){
 
 

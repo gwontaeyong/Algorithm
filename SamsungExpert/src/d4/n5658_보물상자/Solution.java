@@ -31,7 +31,7 @@ public class Solution {
             int len = N / 4;
 
             for (int i = 0; i < len; i++) {
-                
+
                 int count = 0;
                 String str = "";
 

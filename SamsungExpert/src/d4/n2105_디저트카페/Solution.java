@@ -1,3 +1,5 @@
+package d4.n2105_디저트카페;
+
 import java.io.IOException;
 import java.util.Scanner;
 

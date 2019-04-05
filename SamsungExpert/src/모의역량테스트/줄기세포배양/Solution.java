@@ -5,127 +5,157 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Solution {
 
+	static int N;
+	static int M;
+	static int K;
+	static int map[][];
 
-    static int N;
-    static int M;
-    static int K;
-    static int map[][];
+	static int dx[] = { -1, 1, 0, 0 };
+	static int dy[] = { 0, 0, -1, 1 };
 
-    static int dx[] = {1, -1, 0, 0};
-    static int dy[] = {0, 0, -1, 1};
+	static int answer;
+	static Queue<Node> nq;
+	static PriorityQueue<Node> aq;
 
-    public static class Node {
+	public static class Node implements Comparable<Node> {
 
-        int x;
-        int y;
-        int count;
-        int init;
+		int x;
+		int y;
+		int count;
+		int init;
 
-        Node(int x, int y, int init) {
-            this.x = x;
-            this.y = y;
-            this.init = init;
-            count = init;
-        }
-    }
+		Node(int x, int y, int init) {
+			this.x = x;
+			this.y = y;
+			this.init = init;
+			count = init * 2;
+		}
 
-    public static void main(String[] args) throws IOException {
-        System.setIn(Solution.class.getResourceAsStream("input.txt"));
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(br.readLine());
+		@Override
+		public String toString() {
+			return "[x=" + x + ", y=" + y + ", count=" + count + " init=" + init + "]";
+		}
 
-        for (int tc = 1; tc <= T; tc++) {
+		@Override
+		public int compareTo(Node o) {
+			// TODO Auto-generated method stub
+			return o.init - this.init;
+		}
 
-            StringTokenizer st = new StringTokenizer(br.readLine());
+	}
 
-            N = Integer.parseInt(st.nextToken());
-            M = Integer.parseInt(st.nextToken());
-            K = Integer.parseInt(st.nextToken());
+	public static void main(String[] args) throws IOException {
+		System.setIn(Solution.class.getResourceAsStream("input.txt"));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int T = Integer.parseInt(br.readLine());
 
-            map = new int[N + K + 2][M + K + 2];
+		for (int tc = 1; tc <= T; tc++) {
 
-            Queue<Node> queue = new LinkedList<>();
+			StringTokenizer st = new StringTokenizer(br.readLine());
 
-            for (int n = 0; n < N; n++) {
-                st = new StringTokenizer(br.readLine());
+			answer = 0;
 
-                for (int m = 0; m < M; m++) {
-                    int init = Integer.parseInt(st.nextToken());
+			nq = new LinkedList<>();
+			aq = new PriorityQueue<Node>();
 
-                    if (init == 0)
-                        continue;
+			N = Integer.parseInt(st.nextToken());
+			M = Integer.parseInt(st.nextToken());
+			K = Integer.parseInt(st.nextToken());
 
-                    int y = K / 2 + 1 + n;
-                    int x = K / 2 + 1 + m;
+			map = new int[N + K + 2][M + K + 2];
 
-                    map[y][x] = 1;
+			for (int n = 0; n < N; n++) {
+				st = new StringTokenizer(br.readLine());
 
-                    ((LinkedList<Node>) queue).add(new Node(x, y, init));
+				for (int m = 0; m < M; m++) {
+					int init = Integer.parseInt(st.nextToken());
 
+					if (init == 0)
+						continue;
 
-                }
-            }
+					int y = K / 2 + 1 + n;
+					int x = K / 2 + 1 + m;
 
+					map[y][x] = init;
 
-            int answer = 0;
-            answer = bfs(queue);
+					nq.add(new Node(x, y, init));
 
-            System.out.println(answer);
+				}
+			}
 
+			bfs();
 
-        }
-    }
+			System.out.println(String.format("#%d %d", tc, answer));
 
-    public static int bfs(Queue<Node> queue) {
+		}
+	}
 
-        // bfs를 확인하면서 세포 배양시키기
-        int count = 0;
+	static void bfs() {
 
-        Queue<Node> activate = new LinkedList<>();
+		int count = 0;
 
-        while (!queue.isEmpty()) {
+		while (!nq.isEmpty()) {
 
-            System.out.println(count);
-            for (int arr[] : map)
-                System.out.println(Arrays.toString(arr));
+			// System.out.println(nq);
+			if (count == K)
+				break;
 
-            System.out.println();
-            if (count == K)
-                break;
+			int size = nq.size();
 
-            for (int i = 0; i < queue.size(); i++) {
-                Node temp = queue.poll();
-                if (temp.count == 0) {
-                   ((LinkedList<Node>) activate).add(temp);
-                } else {
-                    temp.count--;
-                    ((LinkedList<Node>) queue).add(temp);
-                }
-            }
+			for (int i = 0; i < size; i++) {
+				Node temp = nq.poll();
 
-            while (!activate.isEmpty()) {
-                Node temp = activate.poll();
-                if (temp.count == 0) {
-                    for (int j = 0; j < 4; j++) {
-                        int nx = temp.x + dx[j];
-                        int ny = temp.y + dy[j];
-                        if (map[ny][nx] == 0) {
-                            map[ny][nx] = 1;
-                            ((LinkedList<Node>) queue).add(new Node(nx, ny, temp.init));
-                        }
-                    }
-                }
-            }
-            count++;
-        }
+				if (temp.count == temp.init) {
+				
+					map[temp.y][temp.x] = -1;
 
+					for (int j = 0; j < 4; j++) {
+						int nx = temp.x + dx[j];
+						int ny = temp.y + dy[j];
 
-        return queue.size();
-    }
+						if (map[ny][nx] != 0)
+							continue;
+
+						aq.add(new Node(nx, ny, temp.init));
+					}
+
+				}
+
+				temp.count--;
+
+				if (temp.count == 0)
+					continue;
+
+				nq.add(temp);
+			}
+
+			while (!aq.isEmpty()) {
+				Node temp = aq.poll();
+
+				if (map[temp.y][temp.x] != 0)
+					continue;
+
+				map[temp.y][temp.x] = temp.init;
+				nq.add(temp);
+			}
+			count++;
+
+			//printMap();
+		}
+
+		answer = nq.size();
+
+	}
+
+	static void printMap() {
+		for (int arr[] : map)
+			System.out.println(Arrays.toString(arr));
+	}
 
 }

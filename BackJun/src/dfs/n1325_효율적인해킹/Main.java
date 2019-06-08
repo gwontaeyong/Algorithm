@@ -3,81 +3,85 @@ package dfs.n1325_효율적인해킹;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Main {
 
-	static boolean map[][];
-	static int N;
-	static int memo[];
-	static int count;
+    static ArrayList<Integer>[] list;
+    static int N;
+    static int M;
+    static int dp[];
+    static int max;
+    static boolean visited[];
 
-	public static void main(String[] args) throws IOException {
 
-		System.setIn(Main.class.getResourceAsStream("input.txt"));
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) throws IOException {
 
-		StringTokenizer st = new StringTokenizer(br.readLine());
+        System.setIn(Main.class.getResourceAsStream("input.txt"));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		N = Integer.parseInt(st.nextToken());
-		int M = Integer.parseInt(st.nextToken());
-		map = new boolean[N + 1][N + 1];
-		memo = new int[N + 1];
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-		for (int i = 0; i < M; i++) {
-			st = new StringTokenizer(br.readLine());
-			int a = Integer.parseInt(st.nextToken());
-			int b = Integer.parseInt(st.nextToken());
-			map[b][a] = true;
-		}
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
+        list = new ArrayList[N + 1];
+        dp = new int[N + 1];
 
-		for (int i = 1; i <= N; i++) {
-			boolean visited[] = new boolean[N + 1];
-			visited[i] = true;
-			dfs(i, visited);
+        max = 0;
 
-		}
+        for (int i = 0; i <= N; i++) {
+            list[i] = new ArrayList<>();
+        }
 
-		System.out.println(Arrays.toString(memo));
+        for (int i = 0; i < M; i++) {
+            st = new StringTokenizer(br.readLine());
+            int a = Integer.parseInt(st.nextToken());
+            int b = Integer.parseInt(st.nextToken());
 
-		int max = memo[1];
-		StringBuilder sb = new StringBuilder();
-		sb.append("1 ");
+            list[b].add(a);
+        }
 
-		for (int i = 2; i <= N; i++) {
-			if (memo[i] == max)
-				sb.append(i + " ");
-			else if (memo[i] > max) {
-				max = memo[i];
-				sb = new StringBuilder();
-				sb.append(i + " ");
-			}
-		}
 
-		System.out.println(sb);
+        StringBuilder sb = new StringBuilder();
+        visited = new boolean[N + 1];
 
-	}
+        for (int i = 1; i <= N; i++) {
 
-	public static int dfs(int idx, boolean visited[]) {
+            visited[i] = true;
+            int res = solve(i);
 
-		if (memo[idx] != 0)
-			return memo[idx];
+            if (max < res) {
+                sb = new StringBuilder();
+                sb.append(i + " ");
+                max = res;
+            } else if (max == res)
+                sb.append(i + " ");
+            visited[i] = false;
 
-		int count = 1;
+        }
 
-		for (int i = 1; i <= N; i++) {
-			if (map[idx][i] && !visited[i]) {
-				visited[i] = true;
-				count += dfs(idx, visited);
-			}
-		}
+        System.out.println(sb);
 
-		memo[idx] = count;
+    }
 
-		return memo[idx];
+    static int solve(int cur) {
+        if (dp[cur] != 0)
+            return dp[cur];
 
-	}
+        dp[cur] = 1;
+
+        for (int next : list[cur]) {
+
+            if (visited[next])
+                continue;
+
+            visited[next] = true;
+            dp[cur] += solve(next);
+            visited[next] = false;
+        }
+
+        return dp[cur];
+    }
 
 }

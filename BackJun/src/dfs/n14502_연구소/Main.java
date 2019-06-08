@@ -1,30 +1,30 @@
 package dfs.n14502_연구소;
 
+
 import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.util.List;
+
 
 public class Main {
 
+    static int N;
+    static int M;
 
-    static int R;
-    static int C;
+    static int empty_count;
+    static int virus_count;
 
+    static List<Point> virus;
     static int map[][];
-    static int max;
+    static boolean visited[][];
 
-    static int dr[] = {0, 0, -1, 1};
-    static int dc[] = {1, -1, 0, 0};
+    static int dx[] = {-1, 1, 0, 0};
+    static int dy[] = {0, 0, -1, 1};
 
-    static LinkedList<Point> virus;
-
-    static int nv;
-    static int nb;
+    static int answer;
 
     public static void main(String[] args) throws IOException {
 
@@ -33,124 +33,137 @@ public class Main {
 
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        R = Integer.parseInt(st.nextToken());
-        C = Integer.parseInt(st.nextToken());
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
 
-        map = new int[R][C];
-        virus = new LinkedList<>();
-        max = 0;
+        answer = Integer.MAX_VALUE;
 
-        for (int i = 0; i < R; i++) {
+        map = new int[N][N];
+        visited = new boolean[N][N];
+
+        virus = new ArrayList<>();
+        //데이터 받기
+        for (int y = 0; y < N; y++) {
             st = new StringTokenizer(br.readLine());
+            for (int x = 0; x < N; x++) {
+                int data = Integer.parseInt(st.nextToken());
 
-            for (int j = 0; j < C; j++) {
-                int lab = Integer.parseInt(st.nextToken());
+                //만약 빈칸이라면 나중에 바이러스를 채워야 한다.
+                if (data != 1) {
+                    empty_count++;
+                    //그 곳에 바이러스를 놓을 수 있는 경우 리스트에 좌표를 저장한다.
+                    if (data == 2) {
+                        virus.add(new Point(x, y));
+                    }
+                } else
+                    visited[y][x] = true;
 
-                map[i][j] = lab;
-
-                if (lab == 2)
-                    virus.add(new Point(j, i));
-
-                if (lab == 1)
-                    nb++;
+                map[y][x] = data;
             }
         }
 
-        nv = virus.size();
+        virus_count = virus.size();
 
 
-        dfs(map, 0);
-        System.out.println(max);
-        //int answer = R * C - nb - max;
-        //System.out.println(answer);
+        getCom(new int[M], 0, 0, virus_count, M);
 
+        if (answer == Integer.MAX_VALUE)
+            answer = -1;
+        System.out.println(answer);
     }
 
-    public static void dfs(int map[][], int count) {
+    public static void bfs(int v_index[], boolean check[][]) {
 
-        //System.out.println("dfs");
-        if (count == 3) {
-            //printMap(map);
-            int tempMap[][] = new int[R][C];
+        Queue<Point> queue = new LinkedList<>();
+        int count = 0;
+        int time = 0;
 
-            for(int r = 0; r < R; r++){
-                tempMap[r] = map[r].clone();
-            }
-
-            bfs(tempMap);
-
-            max = Math.max(max, get(tempMap));
-            return;
+        for (int i = 0; i < M; i++) {
+            Point temp = virus.get(v_index[i]);
+            check[temp.y][temp.x] = true;
+            count++;
+            queue.add(temp);
         }
 
-        for (int r = 0; r < R; r++) {
-            for(int c = 0; c < C; c++){
 
-                if(map[r][c] == 0){
-                    map[r][c] = 1;
-                    dfs(map,count+1);
-                    map[r][c] = 0;
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            if (time > answer || count == empty_count)
+                break;
+
+            time++;
+            for (int i = 0; i < size; i++) {
+                Point temp = queue.poll();
+
+
+                for (int j = 0; j < 4; j++) {
+                    int nx = temp.x + dx[j];
+                    int ny = temp.y + dy[j];
+
+
+                    //범위 밖으로 나가거나
+                    //벽을 만나거나
+                    //이전에 탐색했던 장소
+                    if (!isRange(nx, ny) || map[ny][nx] == 1 || check[ny][nx])
+                        continue;
+
+                    count++;
+                    check[ny][nx] = true;
+                    ((LinkedList<Point>) queue).add(new Point(nx, ny));
                 }
             }
         }
 
-    }
-
-    public static int bfs(int tempM[][]) {
-        int answer = 0;
-
-        Queue<Point> queue ;
-        queue = (LinkedList) virus.clone();
-
-        while (!queue.isEmpty()) {
-
-            answer++;
-            Point temp = queue.poll();
-
-            for (int i = 0; i < 4; i++) {
-                int nr = temp.y + dr[i];
-                int nc = temp.x + dc[i];
-
-                if (!isRange(nr, nc) || tempM[nr][nc] != 0)
-                    continue;
-
-                tempM[nr][nc] = 2;
-                ((LinkedList<Point>) queue).add(new Point(nc, nr));
-            }
+        
+        if (count == empty_count) {
+            answer = Math.min(time, answer);
         }
 
 
-        return answer;
     }
 
-    public static boolean isRange(int r, int c) {
-
-        if (r < 0 || r >= R || c < 0 || c >= C)
+    public static boolean isRange(int x, int y) {
+        if (x < 0 || x >= N || y < 0 || y >= N)
             return false;
-
         return true;
     }
 
-    public static int get(int map[][]){
+    public static void getCom(int result[], int idx, int count, int n, int r) {
 
-        int answer = 0;
 
-        for(int arr[]: map){
-            for(int i : arr){
-                if(i == 0)
-                    answer++;
+        if (count == r) {
+            boolean temp[][] = new boolean[N][N];
+
+            for (int i = 0; i < N; i++) {
+                temp[i] = visited[i].clone();
             }
+
+            bfs(result, temp);
+            return;
         }
 
-        return answer;
+        for (int i = idx; i < n; i++) {
+            result[count] = i;
+            getCom(result, i + 1, count + 1, n, r);
+        }
     }
-    public static void printMap(int map[][]){
 
+    public static void getPerm(int result[], boolean visited[], int count, int n, int r) {
 
-        for(int[] arr:map)
-            System.out.println(Arrays.toString(arr));
+        if (count == r) {
+            System.out.println(Arrays.toString(result));
+            return;
+        }
 
-        System.out.println();
+        for (int i = 0; i < n; i++) {
+            if (visited[i])
+                continue;
+
+            visited[i] = true;
+            result[count] = i;
+            getPerm(result, visited, count + 1, n, r);
+            visited[i] = false;
+        }
     }
 
 

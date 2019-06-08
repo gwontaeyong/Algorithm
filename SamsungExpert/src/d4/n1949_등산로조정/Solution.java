@@ -76,37 +76,6 @@ public class Solution {
         }
     }
 
-    private static void dfs(int y, int x, int len, boolean cut) {
-        //cut이 true 면 공사를 했다.
-
-        visit[y][x] = true;
-//      if (map[y][x] == bottom) {
-        answer = answer < len ? len : answer;
-//          return;
-//      }
-        for (int i = 0; i < 4; i++) {
-            int ny = y + dy[i];
-            int nx = x + dx[i];
-            if (!isRange(nx, ny)|| visit[ny][nx])
-                continue;
-            if (map[ny][nx] < map[y][x]) {
-                dfs(ny, nx, len + 1, cut);
-            } else { //같거나 높으면
-                if (!cut) { //cut이 false면 아직 공사를 안한 상태
-                    for (int k = 1; k <= K; k++) {
-                        int tmp = map[ny][nx];
-                        map[ny][nx] -= k;
-                        if (map[ny][nx] < map[y][x])
-                            dfs(ny, nx, len + 1, true);
-                        map[ny][nx] = tmp;
-                    }
-                }
-            }
-            visit[ny][nx] = false;
-        }
-
-    }
-
     public static void dfs(boolean visited[][], int x, int y, int count, boolean isCut) {
 
         visited[y][x] = true;
@@ -127,8 +96,10 @@ public class Solution {
                     for (int k = 1; k <= K; k++) {
                         int tmp = map[ny][nx];
                         map[ny][nx] -= k;
+                        
                         if (map[ny][nx] < map[y][x])
                             dfs(visited, nx, ny, count + 1, true);
+                        
                         map[ny][nx] = tmp;
                     }
                 }
